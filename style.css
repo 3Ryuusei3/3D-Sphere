@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	overflow-x: hidden;
+	font-family: "Popins", sans-serif;
+}
+
+.webgl {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+nav {
+	color: white;
+	z-index: 2;
+	position: relative;
+	padding: 4rem 6rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 2rem;
+}
+
+.title {
+	color: white;
+	z-index: 2;
+	position: absolute;
+	font-size: 2rem;
+	left: 50%;
+	top: 80%;
+	transform: translate(-50%, 80%);
+}
